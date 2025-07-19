@@ -19,6 +19,9 @@
 }
 
 /* Common area starts from here */
+* {
+    margin: 0;
+}
 
 :root {
 
@@ -53,6 +56,7 @@
 /* Navigation bar starts from here */
 
 .navbar {
+    margin-top: 50px;
     justify-content: space-between;
     align-items: center;
 }
@@ -218,3 +222,40 @@
 }
 
 /* Footer starts from here */
+
+
+.footer {
+    background-color: #0A0826;
+    height: 290px;
+    width: 100%;
+    margin-top: 100px;
+
+}
+
+.footer-container {
+    text-align: center;
+    padding: 50px;
+}
+
+.footer-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+
+}
+
+.footer-details {
+    color: white;
+    font-size: 14px;
+    padding: 10px ;
+}
+
+i {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    margin: 10px;
+    
+
+
+}
