@@ -5,7 +5,8 @@
 
     .navbar,
     .nav-list,
-    .banner {
+    .banner,
+    .featured-products {
         flex-direction: column;
 
     }
@@ -39,5 +40,8 @@
         margin-top: 100px;
     }
 
-
+    .featured-texts {
+        order: -1;
+        text-align: center;
+    }
 }
