@@ -5,4 +5,12 @@
     .navbar {
         flex-direction: column;
     }
+
+    .banner {
+        gap: 25px;
+    }
+
+    .product-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }

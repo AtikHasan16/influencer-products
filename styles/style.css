@@ -35,6 +35,20 @@
     margin: 0 auto;
 }
 
+.btn-primary {
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #E02C6D;
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 40px;
+}
+
+
 
 /* Navigation bar starts from here */
 
@@ -60,18 +74,117 @@
 }
 
 /* Banner starts from here */
+.banner {
+    margin-top: 100px;
+    justify-content: space-between;
+    gap: 100px;
+    align-items: center;
+
+}
+
+.banner-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.banner-camara {
+    position: absolute;
+}
 
 
 
+.banner-title {
+    font-size: 3rem;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.banner-details {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    font-weight: 600;
+
+}
 
 /* Market Place bar starts from here */
+.market-place {
+    margin: 100px;
+}
+
+.market-place-images {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+
+
+}
+
+/* Product collection  starts from here */
+.product-collection {
+    margin-bottom: 200px;
+
+}
+
+.product-collection-title {
+    text-align: center;
+    font-size: 600;
+    color: var(--title-color);
+    margin: 50px;
+}
+
+.product-container {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+.product-card {
+    text-align: left;
+    height: 440px;
+    width: 300px;
+    box-shadow: 1px 1px 40px rgb(199, 199, 199);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.card-price {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 0;
+
+
+}
+
+.card-details {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--details-color);
 
 
 
+}
 
-/* Product collection bar starts from here */
+.star-container {
+    color: #FB8200;
+}
 
+.rating {
+    color: var(--details-color);
+    font-weight: 700;
+}
 
-
-
-/* Featured Product bar starts from here */
+/* Featured Product  starts from here */

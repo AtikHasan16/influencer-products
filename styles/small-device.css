@@ -4,9 +4,40 @@
 @media screen and (max-width: 576px) {
 
     .navbar,
-    .nav-list {
+    .nav-list,
+    .banner {
         flex-direction: column;
 
     }
+
+    .banner {
+        margin-top: 20px;
+
+    }
+
+    .banner-texts {
+        order: 1;
+        text-align: center;
+
+    }
+
+    .btn-primary {
+        margin: 0 auto;
+    }
+
+    .banner-img {
+        background-position: center;
+        background-size: 100%;
+
+    }
+
+    .product-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .market-place {
+        margin-top: 100px;
+    }
+
 
 }
